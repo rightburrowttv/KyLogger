@@ -1,6 +1,6 @@
 [project]
 name = "KyLogger"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="Rightburrow", email="rightburrowyt@gmail.com" },
 ]
