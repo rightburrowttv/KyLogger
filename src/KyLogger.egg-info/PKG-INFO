@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: KyLogger
+Version: 1.0.0
+Summary: Logging package for logging to files.
+Author-email: Rightburrow <rightburrowyt@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# KyLogger
+
+## About
+Kylogger is a simplistic logging package for easy logging to files
+
+## Installation
+```python3 -m pip install KyLogger```
+
+## Examples
+```
+>> from KyLogger import Logger, LoggerOptions, INFO
+>> options = LoggerOptions(INFO, "Info.log")
+>> logger = Logger(options)
+>> logger.Info("Test Message")
+[INFO] Test Message - 2024-06-10 13:17:00 >> Info.log
+```
